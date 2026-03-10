@@ -1,0 +1,16 @@
+{
+  "local": {
+    "provider": "ollama",
+    "models": ["qwen2.5", "llama3", "mistral"],
+    "endpoint": "http://localhost:11434"
+  },
+  "cloud": {
+    "providers": ["anthropic", "openai"],
+    "fallback": true
+  },
+  "routing": {
+    "strategy": "cost-optimized",
+    "localFirst": true,
+    "maxCostPerQuery": 0.01
+  }
+}

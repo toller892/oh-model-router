@@ -1,0 +1,23 @@
+{
+  "name": "oh-model-router",
+  "version": "1.0.0",
+  "description": "Local model router and manager for OpenClaw",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js start",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "openclaw",
+    "ollama",
+    "model",
+    "router",
+    "local-first"
+  ],
+  "author": "Tony",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
